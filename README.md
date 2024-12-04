@@ -1,21 +1,43 @@
-# Example
+# Number Guessing Game in Elixir
 
-**TODO: Add description**
+This is a fun and interactive number guessing game built in Elixir. The program challenges you to guess a number between 0 and 10. After entering your guess, the program will reveal the correct number and let you know if you won or lost.
 
-## Installation
+This project is perfect for anyone learning Elixir, as it demonstrates basic input/output operations, conditional logic, and program structure.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `example` to your list of dependencies in `mix.exs`:
+## Features
+- Prompts the user to guess a number between 0 and 10.
+- Displays the guessed number and the correct number.
+- Tells the user whether they won or lost.
 
-```elixir
-def deps do
-  [
-    {:example, "~> 0.1.0"}
-  ]
-end
+## Installation and Running the Program
+
+### Prerequisites
+- Ensure you have Elixir installed on your system. You can follow the [official installation guide](https://elixir-lang.org/install.html) if needed.
+
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_folder>
+   ```
+2. Install dependencies (if any):
+   ```bash
+   mix deps.get
+   ```
+3. Run the program:
+   ```bash
+   mix run
+   ```
+
+## How It Works
+- The program sets a predefined "correct" number (currently `8`).
+- It asks you to guess the number.
+- If your guess matches the correct number, you win! Otherwise, it tells you the correct answer and that you lost.
+
+## Example Output
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/example>.
+Guess the number between 0 and 10: 5
+You guessed 5 but the correct value was 8
+You lose
+```
 
