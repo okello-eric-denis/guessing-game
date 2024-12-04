@@ -17,8 +17,7 @@ This project is perfect for anyone learning Elixir, as it demonstrates basic inp
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone 
    ```
 2. Install dependencies (if any):
    ```bash
