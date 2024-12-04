@@ -11,7 +11,7 @@ def hello(myval) do
    :world
 end
 def main() do
-  correct = 8
+  correct = :rand.uniform(11) - 1
   guess = IO.gets("Guess the number between 0 and 10 :") |> String.trim()
   IO.puts("You guessed #{guess} but the correct value was #{correct}")
 
